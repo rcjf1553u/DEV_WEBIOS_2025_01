@@ -1,10 +1,6 @@
 # DEV_WEBIOS_2025_01
 
-Hello world
-
-Olá mundo
-
-
-help plisss
-
-GIT Vei code
+-quaidade de vida
+-terminar a escola
+-conseguir um emprego bom
+-ter um salario bom com pessoas suportaveis
