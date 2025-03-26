@@ -1,10 +1,3 @@
 # DEV_WEBIOS_2025_01
 
-Hello world
-
-Olá mundo
-
-
-help plisss
-
-GIT Vei code
+Desenvolvimento web 2025 turna n2 primeiro semestre
