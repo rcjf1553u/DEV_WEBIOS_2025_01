@@ -5,4 +5,4 @@ Desenvolvimento web 2025 turna n2 primeiro semestre
 -terminar a escola
 -conseguir um emprego bom
 -ter um salario bom com pessoas suportaveis
-g
+git branch 
