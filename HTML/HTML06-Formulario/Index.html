@@ -7,11 +7,128 @@
 </head>
 <body>
 
+<div01>
+
     <!-- Atributo action serve para executar uma ação, enviar o usuario para outro site web/ enviar um email de boas vindas para o usuario/ guardar as informações preenchidas no formulario para um banco de dados ou chamar alguma ação usando o javasCript-->
     <form action="">
-        <!-- value - colocar um texto no input quando o valor do atributo estiver como button -->
+        <div-text>
+
+         <!-- placeholder = insira um texto auxiliar pra informar o que o usuario deve fazer no campo input -->
+         <label for="">Nome</label>
+         <input type="text">
+
+         <br>
+
+        </div-text>
+
+        <div-radio>
+         <!-- type radio - três opções -->
+         <!-- para aplicar a confguração do radio e necessario colocar o type como radio e o name com o nome igual a todos os inputs -->
+         <br>
+         <input type="radio" name="1">
+         <label for="">São paulo</label>
+
+         <br>
+
+         <input type="radio" name="1">
+         <label for="">Grande são paulo</label>
+
+         <br>
+
+         <input type="radio" name="1">
+         <label for="">Campinas</label>
+
+         <br>
+         <br>
+        </div-radio>
+
+        <div-value>
+                                    <!-- value - colocar um texto no input quando o valor do atributo estiver como button -->
+        
         <input type="button" value="enviar">
+
+        <br>
+        <br>
+        </div-value>
+
+    <div-checkbox>
+        
+        <input type="checkbox">
+        <label for="">Coxinha</label>
+
+        <br>
+
+        <input type="checkbox">
+        <label for="">Pão de queijo</label>
+        
+        <br>
+
+        <input type="checkbox">
+        <label for="">Pastel</label>
+        
+        <br>
+
+        <input type="checkbox">
+        <label for="">Cachorro quente (podrão)</label>
+        
+        <br>
+
+        <input type="checkbox">
+        <label for="">Pizza</label>
+        
+        <br>
+
+        <input type="checkbox">
+        <label for="">Esphira</label>
+        
+        <br>
+        <br>
+    </div-checkbox>
+
+    <div-range>
+
+        0km <input type="range"> 100km
+
+    <br>
+    <br>
+    </div-range>
+
+   <div-option>
+     <!-- Select -->
+     <select name="" id="">
+        <option value="preto">preto</option>
+        <option value="branco">branco</option>
+        <option value="turquesa">turquesa</option>
+    </select>
+    <br>
+    <input type="button" value="enviar">
+   <br>
+   <br>
+
+</div-option>
+
+<div_datalist>
+
+    <input type="text" list="datalist">
+
+
+    <datalist id="busca">
+        <option value="">Corinthians</option>
+        <option value="">Flamengo</option>
+        <option value="">São paulo</option>
+        <option value="">Palmeiras</option>
+    </datalist>
+
+
+</div_datalist>
+   
+
+
+
+       
     </form>
-    
+</div01>
+
+
 </body>
 </html>
