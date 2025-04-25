@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(33, 0, 83);
+}
+h1{
+    color: rgb(0, 60, 255);
+}
+
+p{
+    color: rgb(0, 60, 255);
+}
+
+fieldset {
+border: 2px solid rgb(94, 70, 200);
+}
