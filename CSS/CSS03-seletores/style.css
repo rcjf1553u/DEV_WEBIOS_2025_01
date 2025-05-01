@@ -1,0 +1,16 @@
+/* para sinalizar que eu vou chamar um id o nome dele deve vir acompanhado de um inicio pelo simbolo do jogo da velha* */
+#div1{
+    background-color: rgb(149, 117, 75);
+}
+
+#div2{
+    background-color: rgb(184, 0, 9);
+}
+.k{
+    color: rgb(255, 0, 0);
+}
+
+/* para sinalizar que eu vou chamar um class o nome dele deve vir acompanhado no inicio de um ponto final .  */
+body{
+    background-color: blueviolet;
+}
