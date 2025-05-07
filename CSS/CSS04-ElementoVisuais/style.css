@@ -1,0 +1,12 @@
+hr{
+    border-color: rgb(0, 168, 6);
+}
+#p1{
+    /* largura da borda */
+    border-width: 5px;
+    /* cor da borda */
+    border-color: rgb(189, 217, 187);
+    /* formato da borda */
+    border-style: outset;
+    padding: 10px;
+}
