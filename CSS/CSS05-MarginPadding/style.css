@@ -5,9 +5,10 @@
    border-color: aqua;
    /* estilo da borda */
    border-style: inset;
-   /* espaçamento da borda */
+   /* espaçamento da borda EXTERNA */
    padding: 10px;
-   margin: 10px;
+   /* espaçamento da borda INTERNA */
+   margin-bottom: 10px;
 }
 #div2{
     /* tudo junto em estenso juntando a border color e border style */
