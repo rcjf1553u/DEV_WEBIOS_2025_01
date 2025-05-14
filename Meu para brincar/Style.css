@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#div1{
+    border: 2px solid rgba(128, 0, 0, 0.788);
+    clear: both;
+    height: 520px;
+    margin-bottom: 30px;
+}
+#div2{
+    border: 2px solid rgb(90, 42, 3);
+    clear: both;
+    height: 520px;
+    margin-bottom: 30px;
+}
+#div3{
+    border: 2px solid rgba(255, 255, 255, 0.932);
+    clear: both;
+    height: 590px;
+    margin-bottom: 30px;
+}
+
+#FilmeRuim{
+    width: auto; 
+    height: auto;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.sor{
+    color: rgb(235, 35, 0);
+    margin-left: 5px;
+}
+#Areia{
+    width: 510px;
+    height: 480px;
+    float:right;
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px; 
+    margin-top: 10px;
+}
+#pn{
+    color: rgb(156, 85, 4);
+    margin-left: 5px;
+}
+#GodOfWars{
+    width: 650px;
+    height: 550px;
+    float:left;
+    padding: 20px 10px 10px 5px;
+}
+#Gif{
+    width: 250px;
+    height: 250px;
+    margin-top: 170px;
+    margin-bottom: 150px;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+#RDR{
+    width: 650px;
+    height: 550px;
+    float:right;
+    padding: 20px 10px 10px 5px;
+}
