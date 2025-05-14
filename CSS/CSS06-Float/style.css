@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.Divs{
+    border: 2px solid green;
+    clear: both;
+    height: 480px;
+    margin-bottom: 30px;
+}
+
+#FilmeRuim{
+    width: auto; 
+    height: auto;
+    float: left;
+}
+#Areia{
+    width: 550px;
+    height: 450px;
+    float:left;
+}
+#GodOfWars{
+    width: 650px;
+    height: 550px;
+    float:left;
+}
+#Gif{
+    width: 150px;
+    height: 150px;
+    float:center;
+}
+#RDR{
+    width: 650px;
+    height: 550px;
+    float:right;
+}
