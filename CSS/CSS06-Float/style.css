@@ -35,11 +35,23 @@ body{
 #table{
     width: 70%;
     border:1px solid;
+    float: left;
+    color: brown;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+
+td{
+    width: 50%;
+    border: solid;
+    border-radius: 10px;
 }
 
 #sorria{
     font-size: 25px;
     color: brown;
+    margin-top: 20px;
 }
 #sorria:hover{
     color:rgb(97, 0, 0);
@@ -56,9 +68,7 @@ body{
 #Areia:hover{
     opacity:0;
 }
-#naruto{
 
-}
 #naruto::first-letter{
     font-size: 25px;
     color: aqua;
