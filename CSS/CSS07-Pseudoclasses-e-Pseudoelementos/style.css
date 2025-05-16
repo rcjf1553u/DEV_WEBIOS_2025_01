@@ -1,0 +1,13 @@
+#container{
+    /*fexbox */
+    display: flex;
+    flex-direction:row;
+    /* "flex-wrap" adapta o conteudo para o tamano da tela  */
+    flex-wrap:wrap;
+}
+
+.itens{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+}
