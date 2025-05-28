@@ -1,13 +1,25 @@
 #container{
-    /*fexbox */
+    /* Vou trabalhar com flexbox */
     display: flex;
-    flex-direction:row;
-    /* "flex-wrap" adapta o conteudo para o tamano da tela  */
-    flex-wrap:wrap;
+    flex-direction: row;
+    /* evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
+    flex-wrap: wrap;
+    /* Alinhar elementos no eixo horizontal */
+    justify-content: space-evenly;
+    border: 2px solid firebrick;
+    height: 200px;
+    padding: 40px;
+    /* alinhar no eixo vertical */
+    align-items: stretch;
 }
 
 .itens{
     border: 1px solid black;
     width: 50px;
-    height: 30px;
+    height: 50px;
+}
+
+#div1:hover{
+    flex-grow: 0.35;
+    transition: 3s;
 }
