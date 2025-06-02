@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .tabela-produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 2px solid #ccc;
+  }
+
+  .tabela-produtos div {
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .cabecalho {
+    font-weight: bold;
+    background-color: #d9eaff;
+  }
