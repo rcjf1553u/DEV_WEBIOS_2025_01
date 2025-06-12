@@ -62,3 +62,15 @@ console.log(TemCracha)
 console.log(temCamisa == true && temCracha == true) 
 
 console.log(temCamisa == true || temCracha == true) 
+
+//Operador de atribuição
+var x = 3
+var y = 5 
+// x = x + y 
+//formato contraido
+x = 3 + 2
+console.log(x)
+// log e para mostrar mensagem e resultados
+// clear serve para limpar o console e deixar disponivel para novas mensagens
+console.error("Não faça bobagem vc pode ser punido por isso")
+console.warn("Mas apresenta uma mensagem em amarelo")
