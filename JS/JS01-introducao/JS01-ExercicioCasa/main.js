@@ -1,13 +1,11 @@
-let texto = "Estamos aprendendo JavaScript e seremos futuros Devs";
+// Notas fixas
+let nota1 = 8.5;
+let nota2 = 7.0;
+let nota3 = 9.2;
+let nota4 = 6.8;
 
-// Exibe o caractere que está na posição 19
-console.log(texto.charAt(19));
+// Calcula a média
+let media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-// Exibe o tamanho de toda a string
-console.log(texto.length);
-
-// Exibe toda a string em maiúsculo
-console.log(texto.toUpperCase());
-
-// Exibe apenas a palavra "Devs"
-console.log(texto.slice(-4));
+// Exibe o resultado
+console.log(`A média do aluno com as 4 notas é: ${media}`);
