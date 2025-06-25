@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConstruLife</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🏠 ConstruLife</div>
+    <input type="text" placeholder="Pesquisar..." class="search-bar">
+    <nav class="menu" onclick="toggleMenu()">MENU ☰</nav>
+    <ul id="menu-items" class="menu-items">
+      <li><a href="#intro">Início</a></li>
+      <li><a href="#obras">Obras</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#sustentabilidade">ESG</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section id="intro" class="intro">
+      <div class="intro-text">
+        <h1>Bem-vindo à ConstruLife</h1>
+        <p>
+          Especialistas em construção sustentável com responsabilidade social e ambiental. Realizamos seu sonho com qualidade e compromisso.
+        </p>
+      </div>
+      <img src="./sustentabilidade.jpg" alt="Projeto sustentável">
+    </section>
+
+    <section id="obras" class="obras">
+      <h2>Nossas Obras</h2>
+
+      <div class="categoria">
+        <h3>Lançamentos</h3>
+        <div class="cards" id="cards-lancamentos"></div>
+      </div>
+
+      <div class="categoria">
+        <h3>Em Construção</h3>
+        <div class="cards" id="cards-em-construcao"></div>
+      </div>
+
+      <div class="categoria">
+        <h3>Futuras Construções</h3>
+        <div class="cards" id="cards-futuras"></div>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <h2>Sobre a Nossa Empresa</h2>
+      <p>
+        A ConstruLife surgiu com o propósito de transformar o mercado da construção, unindo inovação tecnológica, sustentabilidade e atendimento humano.
+      </p>
+      <div class="valores">
+        <div class="bloco">
+          <h3>Missão</h3>
+          <p>Construir com excelência e responsabilidade.</p>
+        </div>
+        <div class="bloco">
+          <h3>Visão</h3>
+          <p>Ser referência em construções sustentáveis no Brasil.</p>
+        </div>
+        <div class="bloco">
+          <h3>Valores</h3>
+          <p>Transparência, ética, inovação e respeito ambiental.</p>
+        </div>
+      </div>
+      <h3>Serviços oferecidos:</h3>
+      <ul class="servicos">
+        <li>Hidráulica</li>
+        <li>Elétrica</li>
+        <li>Pintura</li>
+        <li>Projetos de construção</li>
+        <li>Acabamentos e revestimentos</li>
+      </ul>
+    </section>
+
+    <section id="sustentabilidade" class="sustentabilidade">
+      <h2>Sustentabilidade na nossa empresa</h2>
+      <div class="esg">
+        <div class="item">
+          <h3>Ambiental (E)</h3>
+          <p>Redução de impactos ambientais, uso consciente de recursos e foco em energia limpa.</p>
+        </div>
+        <div class="item">
+          <h3>Social (S)</h3>
+          <p>Inclusão, diversidade e fortalecimento das comunidades onde atuamos.</p>
+        </div>
+        <div class="item">
+          <h3>Governança (G)</h3>
+          <p>Transparência, ética e gestão eficiente em todos os processos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2>Fale Conosco</h2>
+      <form id="form-contato">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="social-icons">
+        <a href="#">🔵</a>
+        <a href="#">🔵</a>
+        <a href="#">🔵</a>
+        <a href="#">🔵</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <p>© 2025 ConstruLife • Todos os direitos reservados</p>
+      <div class="info-footer">
+        <p>Sobre nós</p>
+        <p>Redes sociais</p>
+        <p>Localização</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
