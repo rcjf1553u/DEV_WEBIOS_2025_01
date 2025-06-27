@@ -1,0 +1,158 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: aliceblue;
+  }
+  
+  /* Cabeçalho */
+  .header {
+    background-color: #002f87;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .menu {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .menu-items {
+    list-style: none;
+    display: none;
+    padding-left: 0;
+  }
+  
+  .menu-items li {
+    margin: 10px 0;
+  }
+  
+  .menu-items li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Intro */
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f0ff;
+    color: #002f87;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .intro img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Grid de cards */
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+  }
+  
+  /* Card */
+  .card {
+    width: 300px;
+    background-color: #002f87;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .card-content {
+    display: none;
+    padding: 20px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .card-content.show {
+    display: block;
+  }
+  
+  /* Animação ao aparecer */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Texto */
+  .card-content strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .card-content .price {
+    color: #32cd32;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Seções */
+  section {
+    padding: 40px 20px;
+    background-color: white;
+    color: #002f87;
+  }
+  
+  .sobre, .sustentabilidade, .contato {
+    background-color: #e6ecf2;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #002f87;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .info-footer p {
+    margin: 5px 0;
+  }
+  
+h2{
+    color: #002f87;
+}

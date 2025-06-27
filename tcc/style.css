@@ -11,7 +11,7 @@ body {
   color: #000;
 }
 
-header.header {
+.header {
   background-color: #1b2a5e;
   color: white;
   display: flex;
@@ -58,14 +58,21 @@ header.header {
   text-decoration: none;
 }
 
-.intro {
+#intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: white;
-  padding: 40px 20px;
+  padding: 40px 0px;
   text-align: center;
+  width: 100%;
+ }
+
+#imagem{
+  height: 100%;
+  width:80%;
 }
+
 
 .intro img {
   max-width: 100%;
@@ -73,10 +80,53 @@ header.header {
   margin-top: 20px;
 }
 
-.obras {
+/* .obras {
   background: #ddd;
   padding: 40px 20px;
   text-align: center;
+} */
+h2 {
+  color: #090808;
+  margin-top: 40px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.blue {
+  background-color: #002f87;
+  color: #fff;
+}
+
+#card-construção{
+  height: 40%;
+  width: 100%;
+}
+#card-construção01{
+  height: 40%;
+  width: 100%;
+}
+#cards-lancamentos{
+  height: 40%;
+  width: 100%;
+}
+.price {
+  font-weight: bold;
+  color: #32cd32;
 }
 
 .categoria {
